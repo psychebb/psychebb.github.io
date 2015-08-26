@@ -4,8 +4,18 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1>About Me</h1>
+  <div class="intro">
+      <p>I'm a java & UI developer, sometimes will also play ruby & some other funny things. Like painting & cooking.</p>
+      <p>If you want to find me, please check followings:</p>
+      <iframe allowtransparency="true" scrolling="no" frameborder="0" style="border: none; height: 20px; width: 126px;" src="https://buttons.github.io/buttons.html#href%3Dhttps%3A%2F%2Fgithub.com%2Fjcouyang%26text%3DFollow%20%40jcouyang%26data.count.api%3D%2Fusers%2Fjcouyang%23followers%26data.count.href%3D%2Fjcouyang%2Ffollowers%26data.count.aria.label%3D%23%20followers%20on%20GitHub%26data.style%3D%26data.icon%3D%26aria.label%3DFollow%20%40jcouyang%20on%20GitHub"></iframe>,
+      <a href="http://weibo.com/psychebb">Weibo</a>, <a href="mailto:phoenix.bian@gmail.com">Gmail</a>
+  </div>
 
+  <h2>Projects</h2>
+  <a class="post-link" href="http://psychebb.rocks/jiaqi-2015/">JiaQi 2015</a>
+
+  <h2>Blogs</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,7 +27,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

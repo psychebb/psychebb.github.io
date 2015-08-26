@@ -163,6 +163,21 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    h1{
+        font-weight: 400;
+    }
+    h2{
+        margin-top: $spacing-unit;
+        font-weight: 400;
+    }
+    p{
+        font-size: $base-content-size;
+    }
+    .intro{
+        a{
+            font-size: $base-content-size;
+        }
+    }
 }
 
 .page-heading {
